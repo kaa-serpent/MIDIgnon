@@ -55,25 +55,25 @@ graph TD
 
         GP9 --- LED[LED Strip] --- GND
         
-        VBUS --- VCC[3.3v VCC]
+        
     end
 
     subgraph Buttons
-        B1 --- VCC
-        B2 --- VCC
-        B3 --- VCC
-        B4 --- VCC
-        B5 --- VCC
-        B6 --- VCC
-        B7 --- VCC
-        B8 --- VCC
-        B9 --- VCC
+        B1 --- VCC[3.3v VCC]
+        B2 --- VCC[3.3v VCC]
+        B3 --- VCC[3.3v VCC]
+        B4 --- VCC[3.3v VCC]
+        B5 --- VCC[3.3v VCC]
+        B6 --- VCC[3.3v VCC]
+        B7 --- VCC[3.3v VCC]
+        B8 --- VCC[3.3v VCC]
+        B9 --- VCC[3.3v VCC]
     end
 
     subgraph Potentiometers
-        P1 --- VCC
-        P2 --- VCC
-        P3 --- VCC
+        P1 --- VCC[3.3v VCC]
+        P2 --- VCC[3.3v VCC]
+        P3 --- VCC[3.3v VCC]
         P1 --- GND
         P2 --- GND
         P3 --- GND
