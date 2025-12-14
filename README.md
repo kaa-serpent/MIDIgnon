@@ -39,15 +39,15 @@ Here is a diagram illustrating the connections between the RP2040 and the compon
 ```mermaid
 graph TD
     subgraph RP2040 Board
-        GP0 --- B1[Button 1]
-        GP1 --- B2[Button 2]
-        GP2 --- B3[Button 3]
-        GP3 --- B4[Button 4]
-        GP4 --- B5[Button 5]
-        GP5 --- B6[Button 6]
-        GP6 --- B7[Button 7]
-        GP7 --- B8[Button 8]
-        GP8 --- B9[Button 9]
+        GP0 --- B1[Button 1] --- VCC[3.3v VCC]
+        GP1 --- B2[Button 2] --- VCC[3.3v VCC]
+        GP2 --- B3[Button 3] --- VCC[3.3v VCC]
+        GP3 --- B4[Button 4] --- VCC[3.3v VCC]
+        GP4 --- B5[Button 5] --- VCC[3.3v VCC]
+        GP5 --- B6[Button 6] --- VCC[3.3v VCC]
+        GP6 --- B7[Button 7] --- VCC[3.3v VCC]
+        GP7 --- B8[Button 8] --- VCC[3.3v VCC]
+        GP8 --- B9[Button 9] --- VCC[3.3v VCC]
 
         GP26 --- P1[Pot 1]
         GP27 --- P2[Pot 2]
@@ -56,18 +56,6 @@ graph TD
         GP9 --- LED[LED Strip] --- GND
         
         
-    end
-
-    subgraph Buttons
-        B1 --- VCC[3.3v VCC]
-        B2 --- VCC[3.3v VCC]
-        B3 --- VCC[3.3v VCC]
-        B4 --- VCC[3.3v VCC]
-        B5 --- VCC[3.3v VCC]
-        B6 --- VCC[3.3v VCC]
-        B7 --- VCC[3.3v VCC]
-        B8 --- VCC[3.3v VCC]
-        B9 --- VCC[3.3v VCC]
     end
 
     subgraph Potentiometers
