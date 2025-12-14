@@ -1,3 +1,0 @@
-adafruit-circuitpython-midi
-adafruit-circuitpython-busdevice
-adafruit-circuitpython-register
