@@ -49,9 +49,9 @@ graph TD
         GP7 --- B8[Button 8] --- VCC[3.3v VCC]
         GP8 --- B9[Button 9] --- VCC[3.3v VCC]
 
-        GP26 --- P1[Pot 1]
-        GP27 --- P2[Pot 2]
-        GP28 --- P3[Pot 3]
+        GP26 --- P1[Pot 1] --- VCC[3.3v VCC]
+        GP27 --- P2[Pot 2] --- VCC[3.3v VCC]
+        GP28 --- P3[Pot 3] --- VCC[3.3v VCC]
 
         GP9 --- LED[LED Strip] --- GND
         
@@ -59,9 +59,6 @@ graph TD
     end
 
     subgraph Potentiometers
-        P1 --- VCC[3.3v VCC]
-        P2 --- VCC[3.3v VCC]
-        P3 --- VCC[3.3v VCC]
         P1 --- GND
         P2 --- GND
         P3 --- GND
