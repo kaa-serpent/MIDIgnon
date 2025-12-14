@@ -1,4 +1,4 @@
-# ChamPiDi - A 3D-Printed Mushroom MIDI Controller
+# MIDIgnon - A 3D-Printed Mushroom MIDI Controller
 
 A stylish, general-purpose MIDI controller with a unique 3D-printed mushroom design, powered by an RP2040 microcontroller and CircuitPython.
 
