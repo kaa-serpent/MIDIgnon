@@ -12,7 +12,7 @@ A stylish, general-purpose MIDI controller with a unique 3D-printed mushroom des
 
 ## 🍄 Features
 
-*   **9 Tactile Buttons:** Mapped to a C-major scale for intuitive musical expression.
+*   **9 Buttons:** Mapped to a C-major scale for intuitive musical expression.
 *   **3 Analog Potentiometers:** For real-time control over effects and parameters (CC messages).
 *   **Visual Feedback:** Features a "breathing" LED animation and a "blink" effect on button presses.
 *   **Customizable:** Easily modify the code to change MIDI mappings, LED colors, and more.
@@ -53,37 +53,36 @@ graph TD
         GP27 --- P2[Pot 2]
         GP28 --- P3[Pot 3]
 
-        GP9 --- LED[12V LED Strip]
+        GP9 --- LED[LED Strip]
         
-        GND --- GND_B[Buttons GND]
+        VBUS --- VCC[3.3v VCC]
         GND --- GND_P[Potentiometers GND]
-        VBUS --- VCC_P[Potentiometers VCC]
     end
 
     subgraph Buttons
-        B1 --- GND_B
-        B2 --- GND_B
-        B3 --- GND_B
-        B4 --- GND_B
-        B5 --- GND_B
-        B6 --- GND_B
-        B7 --- GND_B
-        B8 --- GND_B
-        B9 --- GND_B
+        B1 --- VCC
+        B2 --- VCC
+        B3 --- VCC
+        B4 --- VCC
+        B5 --- VCC
+        B6 --- VCC
+        B7 --- VCC
+        B8 --- VCC
+        B9 --- VCC
     end
 
     subgraph Potentiometers
-        P1 --- VCC_P
-        P2 --- VCC_P
-        P3 --- VCC_P
-        P1 --- GND_P
-        P2 --- GND_P
-        P3 --- GND_P
+        P1 --- VCC
+        P2 --- VCC
+        P3 --- VCC
+        P1 --- GND
+        P2 --- GND
+        P3 --- GND
     end
 
 ```
 
-*Each button is connected to its corresponding GPIO pin and to Ground (GND). The internal pull-down resistors are used.*
+*Each button is connected to its corresponding GPIO pin and to VCC (3.3v). The internal pull-down resistors are used.*
 *Each potentiometer's signal pin is connected to its corresponding ADC pin. The other two pins are connected to VCC (3.3V or VBUS) and Ground (GND).*
 
 ## 🚀 Software & Setup
@@ -115,7 +114,7 @@ Once everything is set up, plug the controller into your computer via USB. It wi
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your_username/your_repository/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/kaa-serpent/MIDIgnon/issues).
 
 ## 📄 License
 
