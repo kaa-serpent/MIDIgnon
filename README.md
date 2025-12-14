@@ -4,7 +4,7 @@ A stylish, general-purpose MIDI controller with a unique 3D-printed mushroom des
 
 ![FinalFront](3d_files/images/FinalFront.jpeg)
 
-## 🖼️ Gallery
+## Gallery
 
 | Back | Electronics Outside | Electronics Inside |
 |---|---|---|
@@ -18,7 +18,7 @@ A stylish, general-purpose MIDI controller with a unique 3D-printed mushroom des
 *   **Customizable:** Easily modify the code to change MIDI mappings, LED colors, and more.
 *   **Unique Design:** Housed in a charming 3D-printed mushroom enclosure.
 
-## 🛠️ Hardware
+## Hardware
 
 ### Components
 
@@ -66,7 +66,7 @@ graph TD
 *Each button is connected to its corresponding GPIO pin and to VCC (3.3v). The internal pull-down resistors are used.*
 *Each potentiometer's signal pin is connected to its corresponding ADC pin. The other two pins are connected to VCC (3.3V) and Ground (GND).*
 
-## 🚀 Software & Setup
+## Software & Setup
 
 This project uses CircuitPython, which makes it incredibly easy to get started.
 
@@ -89,14 +89,14 @@ This project uses CircuitPython, which makes it incredibly easy to get started.
 
 Simply drag and drop the `code.py` file from this repository onto your `CIRCUITPY` drive.
 
-## 🎹 Usage
+## Usage
 
 Once everything is set up, plug the controller into your computer via USB. It will be automatically recognized as a MIDI device. Open your favorite Digital Audio Workstation (DAW) or music software, and you should be able to map the buttons and knobs to any function you like!
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/kaa-serpent/MIDIgnon/issues).
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
