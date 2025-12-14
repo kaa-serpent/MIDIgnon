@@ -23,7 +23,7 @@ A stylish, general-purpose MIDI controller with a unique 3D-printed mushroom des
 ### Components
 
 *   **Microcontroller:** Raspberry Pi Pico or any other RP2040-based board.
-*   **Buttons:** 9 x tactile push buttons.
+*   **Buttons:** 9 x push buttons.
 *   **Potentiometers:** 3 x 10k Ohm linear potentiometers.
 *   **LEDs:** 
     *   Onboard LED of the RP2040 board.
