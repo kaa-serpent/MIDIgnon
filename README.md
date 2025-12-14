@@ -52,16 +52,13 @@ graph TD
         GP26 --- P1[Pot 1] --- VCC[3.3v VCC]
         GP27 --- P2[Pot 2] --- VCC[3.3v VCC]
         GP28 --- P3[Pot 3] --- VCC[3.3v VCC]
-
+        P1[Pot 1] --- GND
+        P2[Pot 2] --- GND
+        P3[Pot 3] --- GND
+        
         GP9 --- LED[LED Strip] --- GND
         
         
-    end
-
-    subgraph Potentiometers
-        P1 --- GND
-        P2 --- GND
-        P3 --- GND
     end
 
 ```
