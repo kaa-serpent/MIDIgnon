@@ -1,0 +1,9 @@
+[CIRCUITPY]
+# Enable USB MIDI
+CIRCUITPY_USB_MIDI = true
+
+# Enable USB serial (optional, for debug)
+CIRCUITPY_USB_CDC = true
+
+# Set custom USB device name
+CIRCUITPY_USB_NAME = "MIDIgnon"
