@@ -82,7 +82,7 @@ graph TD
 ```
 
 *Each button is connected to its corresponding GPIO pin and to VCC (3.3v). The internal pull-down resistors are used.*
-*Each potentiometer's signal pin is connected to its corresponding ADC pin. The other two pins are connected to VCC (3.3V or VBUS) and Ground (GND).*
+*Each potentiometer's signal pin is connected to its corresponding ADC pin. The other two pins are connected to VCC (3.3V) and Ground (GND).*
 
 ## 🚀 Software & Setup
 
