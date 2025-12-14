@@ -53,10 +53,9 @@ graph TD
         GP27 --- P2[Pot 2]
         GP28 --- P3[Pot 3]
 
-        GP9 --- LED[LED Strip]
+        GP9 --- LED[LED Strip] --- GND
         
         VBUS --- VCC[3.3v VCC]
-        GND --- GND_P[Potentiometers GND]
     end
 
     subgraph Buttons
