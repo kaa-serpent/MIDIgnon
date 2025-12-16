@@ -1,28 +1,64 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
-  padding: 0;
+  color: #333;
 }
 
-header {
-  background: #222;
+.hero {
+  background: url('images/FinalFront.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
-  padding: 10px;
+  text-shadow: 1px 1px 5px #000;
 }
 
-nav a {
-  margin-right: 15px;
+.hero h1 {
+  font-size: 4em;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.btn {
+  background: #ff4c3b;
   color: white;
+  padding: 10px 20px;
   text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
-main {
-  padding: 20px;
+.btn:hover {
+  background: #ff6f5a;
+}
+
+.gallery {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.gallery .images img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+#performance, #usage {
+  padding: 50px 20px;
+  background: #f5f5f5;
+  text-align: center;
 }
 
 footer {
   text-align: center;
-  font-size: 0.9em;
-  padding: 10px;
-  border-top: 1px solid #ccc;
+  padding: 20px;
+  background: #222;
+  color: white;
 }
