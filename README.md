@@ -2,13 +2,13 @@
 
 A stylish, general-purpose MIDI controller with a unique 3D-printed mushroom design, powered by an RP2040 microcontroller and CircuitPython.
 
-![FinalFront](3d_files/images/FinalFront.jpeg)
+![FinalFront](docs/images/FinalFront.jpeg)
 
 ## Gallery
 
 | Back | Electronics Outside | Electronics Inside |
 |---|---|---|
-| ![FinalBack](3d_files/images/finalBack.jpeg) | ![ElecOutside](3d_files/images/elecouside.jpeg) | ![ElecInside](3d_files/images/elecinside.jpeg) |
+| ![FinalBack](docs/images/finalBack.jpeg) | ![ElecOutside](docs/images/elecouside.jpeg) | ![ElecInside](docs/images/elecinside.jpeg) |
 
 ## 🍄 Features
 
