@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/portfolio-preview.jpg" alt="MIDIgnon — 3D-printed mushroom MIDI controller" width="100%">
+</p>
+
 # MIDIgnon - A 3D-Printed Mushroom MIDI Controller
 
 A stylish, general-purpose MIDI controller with a unique 3D-printed mushroom design, powered by an RP2040 microcontroller and CircuitPython.
